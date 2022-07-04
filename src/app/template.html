@@ -5,7 +5,11 @@
     <div [ngClass]="getClassesByPosition(1)">
         The second product is {{getProductByPosition(1).name}}    
     </div>-->
-    <div [ngClass]="getClasses()">
+    <div [ngClass]="'text-white p-3 ' +getClasses()">
         büyükşehir çalışıyor
+    </div>
+    <div class="form-group m-2">
+        <label>Name :</label>
+        <input class="form-control" [value]="model.getProduct(20)?.name?? 'DEĞER BULUNAMADI'"/>
     </div>
 </div>

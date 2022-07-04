@@ -17,7 +17,7 @@ export class ProductComponent {
         return this.model.getProducts()[position];
     }*/
     getClasses():string{
-        return this.model.getProducts().length=== 6? "bg-success":"bg-danger";
+        return this.model.getProducts().length=== 5? "bg-success":"bg-danger";
     }
 
    /* getClassesByPosition(position: number): string {
