@@ -8,6 +8,8 @@
   # property binding
    <input class="form-control" [value]="model.getProduct(20)?.name?? 'DEĞER BULUNAMADI'"
           null contidional operatör ile eğer ilgili kayıt varsa onun namini geitirir yoksa null yerine bulunamdı bilgisni geçer
+          ![image](https://user-images.githubusercontent.com/45200802/177214073-77682974-ee9e-46ba-a3f8-8840899a000e.png)
+
           
   
   
